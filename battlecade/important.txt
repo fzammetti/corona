@@ -1,0 +1,13 @@
+Due to license restrictions, this source code does NOT include:
+
+text_candy.lua
+
+This is the Text Candy library X-pressive.  If you want to
+actually build this, you'll need to get a license for that library here:
+http://www.x-pressive.com
+
+Also note that Battlecade was originally meant to be an online game, but due
+to it being an absolute failure in terms of sales, I removed the online
+component and that's the only version available in any mobile store now.
+However, I simply disabled the menu items related to online play and the code
+behind it remains.  Well, except for the server part.

@@ -1,0 +1,19 @@
+Due to license restrictions, this source code does NOT include the following files:
+
+/themes
+lib_particle_candy.lua
+lib_text_candy.lua
+lib_widget_candy.lua
+textCandy_fontLEDBigOrange.lua
+textCandy_fontLEDBigOrange.png
+textCandy_fontSmall4Silver.lua
+textCandy_fontSmall4Silver.png
+textCandy_fontSpaceBigOrange.lua
+textCandy_fontSpaceBigOrange.png
+widgetCandy_theme2.lua
+
+These are source files and resources taken from the Particle Candy, Text Candy and Widget 
+Candy from libraries X-pressive.  If you want to actually build this code, you'll need to 
+get a license for those libraries here:
+http://www.x-pressive.com
+...and then add the files back in.

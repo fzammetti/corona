@@ -1,0 +1,160 @@
+settings = {
+
+  orientation = {
+    default = "portrait",
+    supported = {
+      "portrait"
+    }
+  },
+
+  android = {
+    usesPermissions = {
+      "android.permission.INTERNET"
+    }
+  },
+
+  iphone = {
+    plist = {
+      CFBundleDisplayName = "Battlecade",
+      CFBundleName = "Battlecade",
+      CFBundleIconFile = "Icon.png",
+      CFBundleIconFiles = {
+        "Icon.png",
+        "Icon@2x.png",
+        "Icon-60.png",
+        "Icon-60@2x.png",
+        "Icon-60@3x.png",
+        "Icon-72.png",
+        "Icon-72@2x.png",
+        "Icon-76.png",
+        "Icon-76@2x.png",
+        "Icon-167.png",
+        "Icon-Small-40.png",
+        "Icon-Small-40@2x.png",
+        "Icon-Small-40@3x.png",
+        "Icon-Small-50.png",
+        "Icon-Small-50@2x.png",
+        "Icon-Small.png",
+        "Icon-Small@2x.png",
+        "Icon-Small@3x.png"
+      },
+      UILaunchImages = {
+        {
+          ["UILaunchImageMinimumOSVersion"] = "7.0",
+          ["UILaunchImageName"] = "Default",
+          ["UILaunchImageOrientation"] = "Portrait",
+          ["UILaunchImageSize"] = "{320, 480}"
+        },
+        {
+          ["UILaunchImageMinimumOSVersion"] = "7.0",
+          ["UILaunchImageName"] = "Default",
+          ["UILaunchImageOrientation"] = "LandscapeLeft",
+          ["UILaunchImageSize"] = "{320, 480}"
+        },
+        {
+          ["UILaunchImageMinimumOSVersion"] = "7.0",
+          ["UILaunchImageName"] = "Default",
+          ["UILaunchImageOrientation"] = "LandscapeRight",
+          ["UILaunchImageSize"] = "{320, 480}"
+        },
+        {
+          ["UILaunchImageMinimumOSVersion"] = "7.0",
+          ["UILaunchImageName"] = "Default-568h",
+          ["UILaunchImageOrientation"] = "Portrait",
+          ["UILaunchImageSize"] = "{320, 568}"
+        },
+        {
+          ["UILaunchImageMinimumOSVersion"] = "7.0",
+          ["UILaunchImageName"] = "Default-568h",
+          ["UILaunchImageOrientation"] = "LandscapeLeft",
+          ["UILaunchImageSize"] = "{320, 568}"
+        },
+        {
+          ["UILaunchImageMinimumOSVersion"] = "7.0",
+          ["UILaunchImageName"] = "Default-568h",
+          ["UILaunchImageOrientation"] = "LandscapeRight",
+          ["UILaunchImageSize"] = "{320, 568}"
+        },
+        {
+          ["UILaunchImageMinimumOSVersion"] = "7.0",
+          ["UILaunchImageName"] = "Default-Portrait",
+          ["UILaunchImageOrientation"] = "Portrait",
+          ["UILaunchImageSize"] = "{768, 1024}"
+        },
+        {
+          ["UILaunchImageMinimumOSVersion"] = "7.0",
+          ["UILaunchImageName"] = "Default-Landscape",
+          ["UILaunchImageOrientation"] = "LandscapeLeft",
+          ["UILaunchImageSize"] = "{768, 1024}"
+        },
+        {
+          ["UILaunchImageMinimumOSVersion"] = "7.0",
+          ["UILaunchImageName"] = "Default-Landscape",
+          ["UILaunchImageOrientation"] = "LandscapeRight",
+          ["UILaunchImageSize"] = "{768, 1024}"
+        },
+        {
+          ["UILaunchImageMinimumOSVersion"] = "8.0",
+          ["UILaunchImageName"] = "Default-667h",
+          ["UILaunchImageOrientation"] = "Portrait",
+          ["UILaunchImageSize"] = "{375, 667}"
+        },
+        {
+          ["UILaunchImageMinimumOSVersion"] = "8.0",
+          ["UILaunchImageName"] = "Default-667h",
+          ["UILaunchImageOrientation"] = "LandscapeLeft",
+          ["UILaunchImageSize"] = "{375, 667}"
+        },
+        {
+          ["UILaunchImageMinimumOSVersion"] = "8.0",
+          ["UILaunchImageName"] = "Default-667h",
+          ["UILaunchImageOrientation"] = "LandscapeRight",
+          ["UILaunchImageSize"] = "{375, 667}"
+        },
+        {
+          ["UILaunchImageMinimumOSVersion"] = "8.0",
+          ["UILaunchImageName"] = "Default-736h",
+          ["UILaunchImageOrientation"] = "Portrait",
+          ["UILaunchImageSize"] = "{414, 736}"
+        },
+        {
+          ["UILaunchImageMinimumOSVersion"] = "8.0",
+          ["UILaunchImageName"] = "Default-Landscape-736h",
+          ["UILaunchImageOrientation"] = "LandscapeLeft",
+          ["UILaunchImageSize"] = "{414, 736}"
+        },
+        {
+          ["UILaunchImageMinimumOSVersion"] = "8.0",
+          ["UILaunchImageName"] = "Default-Landscape-736h",
+          ["UILaunchImageOrientation"] = "LandscapeRight",
+          ["UILaunchImageSize"] = "{414, 736}"
+        },
+        {
+          ["UILaunchImageMinimumOSVersion"] = "9.0",
+          ["UILaunchImageName"] = "Default-Portrait-1366",
+          ["UILaunchImageOrientation"] = "Portrait",
+          ["UILaunchImageSize"] = "{1024, 1366}"
+        },
+        {
+          ["UILaunchImageMinimumOSVersion"] = "9.0",
+          ["UILaunchImageName"] = "Default-Landscape-1366",
+          ["UILaunchImageOrientation"] = "LandscapeRight",
+          ["UILaunchImageSize"] = "{1024, 1366}"
+        },
+        {
+          ["UILaunchImageMinimumOSVersion"] = "9.0",
+          ["UILaunchImageName"] = "Default-Landscape-1366",
+          ["UILaunchImageOrientation"] = "LandscapeLeft",
+          ["UILaunchImageSize"] = "{1024, 1366}"
+        }
+      },
+      UIApplicationExitsOnSuspend = false,
+      UIPrerenderedIcon = true,
+      UIHiddenStatusBar = true,
+      UIAppFonts = {
+        "nativeFont.ttf",
+      }
+    }
+  }
+
+}
