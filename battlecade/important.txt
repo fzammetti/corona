@@ -10,4 +10,5 @@ Also note that Battlecade was originally meant to be an online game, but due
 to it being an absolute failure in terms of sales, I removed the online
 component and that's the only version available in any mobile store now.
 However, I simply disabled the menu items related to online play and the code
-behind it remains.  Well, except for the server part.
+behind it remains.  Well, except for the server part, which was taken down,
+but for the sake of completeness I've included that code here as well.
